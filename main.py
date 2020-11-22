@@ -10,5 +10,7 @@ addr = pubtoaddr(my_public_key)
 print(addr)
 data = "Your BTC address is " + addr + "and your private key is " + my_private_key
 img = qrcode.make(data)
-lpr =  subprocess.Popen("/usr/bin/lp", stdin=subprocess.PIPE)
-lpr.stdin.write(np.asarray(img))
+path = addr+'.png'
+img.save(path)
+lpr =  subprocess.call(["/usr/bin/lp", path])
+
