@@ -2,7 +2,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join%20My%20Server-blue)](https://discord.gg/DMbMmQvvQh)
 [![CodeLife](https://img.shields.io/badge/Code%20Life-Join%20The%20Team-brightgreen)](https://bit.ly/30vZro9)
 
-# Raspberry Pi Fan Script
+# Raspberry Pi Bitcoin ATM
 Turn your raspberry pi into a bitcoin ATM to start earning extra income!
 
 ## Table Of Contents
